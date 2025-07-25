@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 export const serverUrl = "https://realtimechatapp-backend-vhr0.onrender.com"
 import {Provider } from 'react-redux'
-import { store } from './redux/Store.js'
+import { store } from './redux/store.js'
 createRoot(document.getElementById('root')).render(
  <BrowserRouter>
  <Provider store={store}>
